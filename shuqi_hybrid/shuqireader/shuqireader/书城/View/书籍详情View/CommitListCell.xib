@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CommitListCell" customModule="shuqireader" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="153" height="123"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="153" height="123"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="kMz-8s-yh9">
+                        <rect key="frame" x="0.0" y="0.0" width="153" height="73"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="vXF-hz-UML">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H3g-eF-Ivd">
+                        <rect key="frame" x="0.0" y="73" width="153" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="vq0-1F-n7x"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" title="查看全部评论">
+                            <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="allBtnCiled:" destination="gTV-IL-0wX" eventType="touchUpInside" id="T9u-be-vKv"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="kMz-8s-yh9" secondAttribute="bottom" constant="50" id="5Tb-Gd-2lk"/>
+                <constraint firstItem="kMz-8s-yh9" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="9M9-8y-GI5"/>
+                <constraint firstAttribute="trailing" secondItem="H3g-eF-Ivd" secondAttribute="trailing" id="Bu9-FQ-2sA"/>
+                <constraint firstItem="H3g-eF-Ivd" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="IsN-ny-IZA"/>
+                <constraint firstAttribute="bottom" secondItem="H3g-eF-Ivd" secondAttribute="bottom" id="Jtc-Ph-3lI"/>
+                <constraint firstAttribute="trailing" secondItem="kMz-8s-yh9" secondAttribute="trailing" id="M1Y-k6-Ybg"/>
+                <constraint firstItem="kMz-8s-yh9" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Uo1-gG-KrD"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="153" height="123"/>
+            <connections>
+                <outlet property="allBnt" destination="H3g-eF-Ivd" id="u2p-ns-zEd"/>
+                <outlet property="collectionView" destination="kMz-8s-yh9" id="x9O-nO-ban"/>
+            </connections>
+            <point key="canvasLocation" x="212.31884057971016" y="138.95089285714286"/>
+        </collectionViewCell>
+    </objects>
+</document>

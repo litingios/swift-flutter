@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CommitItemCell" customModule="shuqireader" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="251" height="105"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="251" height="105"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lAK-9q-50A">
+                        <rect key="frame" x="15" y="15" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="6x5-jJ-7Gf"/>
+                            <constraint firstAttribute="width" constant="30" id="WAD-8L-cW7"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="哈哈哈哈哈啊哈哈哈哈哈哈哈哈" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4EC-2M-YWf">
+                        <rect key="frame" x="55" y="15" width="116" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="CLe-OH-P5w"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我是《农女重生之丞相夫人》的作者寸寸金，我的读书群是23328264（QQ），大家加时一定要写上书名或者任一人名才会通过" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eaR-ad-JiP">
+                        <rect key="frame" x="55" y="35" width="186" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="Jbw-tu-azX"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4月4日" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P6F-qb-6ww">
+                        <rect key="frame" x="55" y="83" width="80" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="1aG-sQ-7xg"/>
+                            <constraint firstAttribute="height" constant="10" id="4mh-rt-E2D"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tl6-L5-y8w">
+                        <rect key="frame" x="207" y="78" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="Xaj-vX-VvC"/>
+                            <constraint firstAttribute="height" constant="20" id="xGg-hP-a3r"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="-5" maxY="0.0"/>
+                        <state key="normal" image="icon_zan_tip">
+                            <color key="titleColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="zanBtnCiled:" destination="gTV-IL-0wX" eventType="touchUpInside" id="8bH-5g-ID6"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uZL-D0-qOS">
+                        <rect key="frame" x="227" y="80.5" width="14" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="q5W-1g-0km"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i03-cZ-2il">
+                        <rect key="frame" x="178" y="81.5" width="14" height="13.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uNx-Qv-XDU">
+                        <rect key="frame" x="158" y="78" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="a88-2b-axt"/>
+                            <constraint firstAttribute="height" constant="20" id="aLO-8x-LSU"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="-5" maxY="0.0"/>
+                        <state key="normal" image="icon_comment_tip">
+                            <color key="titleColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="commitBtnCiled:" destination="gTV-IL-0wX" eventType="touchUpInside" id="rle-1T-pGU"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="i03-cZ-2il" firstAttribute="leading" secondItem="uNx-Qv-XDU" secondAttribute="trailing" id="Afa-m4-opg"/>
+                <constraint firstItem="4EC-2M-YWf" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="15" id="D09-4S-aFD"/>
+                <constraint firstItem="Tl6-L5-y8w" firstAttribute="leading" secondItem="i03-cZ-2il" secondAttribute="trailing" constant="15" id="FmC-Dv-NHB"/>
+                <constraint firstItem="P6F-qb-6ww" firstAttribute="top" secondItem="eaR-ad-JiP" secondAttribute="bottom" constant="8" id="KjT-H8-kAq"/>
+                <constraint firstItem="4EC-2M-YWf" firstAttribute="leading" secondItem="lAK-9q-50A" secondAttribute="trailing" constant="10" id="UnE-qe-ReZ"/>
+                <constraint firstItem="P6F-qb-6ww" firstAttribute="leading" secondItem="eaR-ad-JiP" secondAttribute="leading" id="XcJ-TJ-bKD"/>
+                <constraint firstItem="Tl6-L5-y8w" firstAttribute="centerY" secondItem="P6F-qb-6ww" secondAttribute="centerY" id="ZNA-Ec-iWS"/>
+                <constraint firstItem="uNx-Qv-XDU" firstAttribute="centerY" secondItem="P6F-qb-6ww" secondAttribute="centerY" id="a2S-As-Ze0"/>
+                <constraint firstAttribute="trailing" secondItem="4EC-2M-YWf" secondAttribute="trailing" constant="80" id="ag3-0w-dTu"/>
+                <constraint firstAttribute="trailing" secondItem="eaR-ad-JiP" secondAttribute="trailing" constant="10" id="aoM-tS-VDM"/>
+                <constraint firstItem="lAK-9q-50A" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="15" id="cju-4B-wha"/>
+                <constraint firstItem="lAK-9q-50A" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="dsh-m9-Jg0"/>
+                <constraint firstAttribute="trailing" secondItem="uZL-D0-qOS" secondAttribute="trailing" constant="10" id="hhX-Ce-D27"/>
+                <constraint firstItem="eaR-ad-JiP" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="35" id="ruB-Z4-C28"/>
+                <constraint firstItem="i03-cZ-2il" firstAttribute="centerY" secondItem="P6F-qb-6ww" secondAttribute="centerY" id="t8z-RV-UEg"/>
+                <constraint firstItem="eaR-ad-JiP" firstAttribute="leading" secondItem="lAK-9q-50A" secondAttribute="trailing" constant="10" id="uJm-YS-zys"/>
+                <constraint firstItem="uZL-D0-qOS" firstAttribute="leading" secondItem="Tl6-L5-y8w" secondAttribute="trailing" id="uvO-jK-G0N"/>
+                <constraint firstItem="uZL-D0-qOS" firstAttribute="centerY" secondItem="P6F-qb-6ww" secondAttribute="centerY" id="xky-cD-ZGC"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="251" height="105"/>
+            <connections>
+                <outlet property="commitCountLab" destination="i03-cZ-2il" id="r8j-Oc-uU8"/>
+                <outlet property="commitIcon" destination="lAK-9q-50A" id="EWd-D0-xF1"/>
+                <outlet property="desLab" destination="eaR-ad-JiP" id="8a9-HU-TlZ"/>
+                <outlet property="nameLabe" destination="4EC-2M-YWf" id="x4Q-zU-Zgc"/>
+                <outlet property="timeLable" destination="P6F-qb-6ww" id="5hd-fw-9Ln"/>
+                <outlet property="zanCountLab" destination="uZL-D0-qOS" id="xl0-dZ-suU"/>
+            </connections>
+            <point key="canvasLocation" x="283.33333333333337" y="112.16517857142857"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icon_comment_tip" width="54" height="54"/>
+        <image name="icon_zan_tip" width="54" height="54"/>
+    </resources>
+</document>

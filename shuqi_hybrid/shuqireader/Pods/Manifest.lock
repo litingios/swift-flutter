@@ -1,0 +1,149 @@
+PODS:
+  - Alamofire (5.2.2)
+  - ATKit_Swift (0.2.1)
+  - DNSPageView (2.1.0)
+  - DZNEmptyDataSet (1.8.1)
+  - ESPullToRefresh (2.9.3)
+  - ESTabBarController-swift (2.8.0)
+  - FDFullscreenPopGesture (1.1)
+  - Flutter (1.0.0)
+  - flutter_module (0.0.1):
+    - Flutter
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+  - FSPagerView (0.8.3)
+  - HandyJSON (5.0.0-beta)
+  - JXMarqueeView (0.0.9)
+  - Kingfisher (5.15.3):
+    - Kingfisher/Core (= 5.15.3)
+  - Kingfisher/Core (5.15.3)
+  - LTScrollView (0.3.0)
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.5.0)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - ObjectMapper (4.2.0)
+  - SnapKit (5.0.1)
+  - Spring (1.0.6)
+  - StreamingKit (0.1.30)
+  - SVProgressHUD (2.2.5)
+  - SwiftMessages (8.0.2):
+    - SwiftMessages/App (= 8.0.2)
+  - SwiftMessages/App (8.0.2)
+  - SwiftyJSON (5.0.0)
+  - YYCache (1.0.4)
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
+
+DEPENDENCIES:
+  - ATKit_Swift (from `https://github.com/tianya2416/ATKit_Swift.git`)
+  - DNSPageView
+  - DZNEmptyDataSet
+  - ESPullToRefresh
+  - ESTabBarController-swift
+  - FDFullscreenPopGesture (= 1.1)
+  - Flutter (from `../flutter_module/.ios/Flutter/engine`)
+  - flutter_module (from `../flutter_module/.ios/Flutter`)
+  - FlutterPluginRegistrant (from `../flutter_module/.ios/Flutter/FlutterPluginRegistrant`)
+  - FSPagerView
+  - HandyJSON (= 5.0.0-beta)
+  - JXMarqueeView
+  - Kingfisher
+  - LTScrollView
+  - MBProgressHUD (from `https://github.com/tianya2416/MBProgress.git`)
+  - MJRefresh
+  - Moya
+  - ObjectMapper
+  - SnapKit
+  - Spring (from `https://github.com/MengTo/Spring.git`)
+  - StreamingKit
+  - SVProgressHUD
+  - SwiftMessages
+  - SwiftyJSON
+  - YYCache
+  - YYCategories
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - DNSPageView
+    - DZNEmptyDataSet
+    - ESPullToRefresh
+    - ESTabBarController-swift
+    - FDFullscreenPopGesture
+    - FSPagerView
+    - HandyJSON
+    - JXMarqueeView
+    - Kingfisher
+    - LTScrollView
+    - MJRefresh
+    - Moya
+    - ObjectMapper
+    - SnapKit
+    - StreamingKit
+    - SVProgressHUD
+    - SwiftMessages
+    - SwiftyJSON
+    - YYCache
+    - YYCategories
+
+EXTERNAL SOURCES:
+  ATKit_Swift:
+    :git: https://github.com/tianya2416/ATKit_Swift.git
+  Flutter:
+    :path: "../flutter_module/.ios/Flutter/engine"
+  flutter_module:
+    :path: "../flutter_module/.ios/Flutter"
+  FlutterPluginRegistrant:
+    :path: "../flutter_module/.ios/Flutter/FlutterPluginRegistrant"
+  MBProgressHUD:
+    :git: https://github.com/tianya2416/MBProgress.git
+  Spring:
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  ATKit_Swift:
+    :commit: 9a03f7b84a751419ef4ffcf3b19422e574cc30c8
+    :git: https://github.com/tianya2416/ATKit_Swift.git
+  MBProgressHUD:
+    :commit: 9454198b351732bd4eb8cbd7658b6dd73e1e43c8
+    :git: https://github.com/tianya2416/MBProgress.git
+  Spring:
+    :commit: 50d92a5b9e08848387ae95bf44c6ad20834f7083
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  ATKit_Swift: 192fd8090771bed40d0d07ea17ddce2e9cbe83da
+  DNSPageView: 4d77a61f49a5668ec330fb7bd620d81354371ea7
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  ESPullToRefresh: 0d68daa602b343c81753a1b95e09fd0bfcddfd40
+  ESTabBarController-swift: 05593a6ad64700b03c0eb60ff625916370aa4136
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_module: d1e1ff44505640bd9aa37f23f63380c646272be4
+  FlutterPluginRegistrant: 2afd5ea46d3a949472c9b7da6462d8fbf7d8b16e
+  FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
+  HandyJSON: b84ac9904050a0897a0802092b7cb8808e0a4e9a
+  JXMarqueeView: 0058108f80f149b25ff3bc3705c1af348fe7be8f
+  Kingfisher: 2fef2f4d9e809285aff7f6195b5290520904f3fa
+  LTScrollView: 46029b501f34d31e33e33392935cb240eb1d1ed0
+  MBProgressHUD: 0f5bb58f04db85da16d8b9e9781df7f88cadd4ec
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  Spring: 3d113f14575ef79aec9c5f906dfa4f5001c03254
+  StreamingKit: 70ca8608c206864b4d54a577eacb3c8bf7c72209
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftMessages: 633304165351b8e3dcbb81a71f8efcd86f9c1669
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
+
+PODFILE CHECKSUM: cd8b9c42def29fa79f276ed28009b901880607b5
+
+COCOAPODS: 1.10.0
